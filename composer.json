@@ -1,0 +1,26 @@
+{
+  "name":        "kaduvelasco/zyra-sessions",
+  "version":     "1.0.0",
+  "type":        "library",
+  "description": "Uma classe PHP para trabalhar com sessões em PHP.",
+  "keywords":    ["php","sessões","sessions"],
+  "homepage":    "https://github.com/kaduvelasco/zyra-sessions",
+  "license":     "MIT",
+  "authors": [
+    {
+      "name":  "Kadu Velasco",
+      "email": "kadu.velasco@gmail.com",
+      "role":  "Developer"
+    }
+  ],
+  "require": {
+    "php":      ">=7.4",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zyra\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
